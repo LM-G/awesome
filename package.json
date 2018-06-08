@@ -1,0 +1,33 @@
+{
+  "name": "awesome",
+  "version": "1.0.0",
+  "description": "Awesome - the repository",
+  "homepage": "https://github.com/LM-G/awesome#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LM-G/awesome.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LM-G/awesome/issues"
+  },
+  "keywords": [
+    "awesome",
+    "websocket"
+  ],
+  "private": true,
+  "author": "LM-G",
+  "license": "MIT",
+  "scripts": {
+    "build:all": "npm run build:websocket",
+    "build:websocket": "cd packages/websocket && npm run build"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.51",
+    "@babel/register": "^7.0.0-beta.51",
+    "babel-preset-env": "^1.7.0",
+    "gulp": "^3.9.1"
+  }
+}

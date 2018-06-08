@@ -1,0 +1,13 @@
+# Logs
+*.log
+
+# Node Files
+node_modules/
+bower_components/
+
+# IDE #
+*.idea/
+*.swp
+
+#NPM
+package-lock.json

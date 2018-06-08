@@ -1,0 +1,13 @@
+<div class="container-fluid">
+  <h1>foo</h1>
+  <ul id="messages">
+    <li *ngFor="let message of messages">
+      {{message}}
+    </li>
+  </ul>
+</div>
+<div id="user-input" class="container-fluid">
+  <form [formGroup]="chatForm" (ngSubmit)="send()">
+    <input type="text" class="col-sm" formControlName="message"/>
+  </form>
+</div>

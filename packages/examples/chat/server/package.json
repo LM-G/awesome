@@ -1,0 +1,45 @@
+{
+  "name": "@awesome/examples-chat-server",
+  "description": "Awesome - the example chat server module",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "nodemon",
+    "serve": "webpack && node ./dist/bundle.js",
+    "debug": "node  -r ts-node/register -r tsconfig-paths/register --nolazy --inspect-brk=5858 ./src/main.ts"
+  },
+  "keywords": [
+    "koa 2",
+    "typescript",
+    "webpack 4"
+  ],
+  "author": "LM-G",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.5.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^4.0.2",
+    "reflect-metadata": "^0.1.12",
+    "require-all": "^2.2.0",
+    "rxjs": "^6.1.0",
+    "socket.io": "^2.1.0",
+    "typescript-ioc": "^1.2.3",
+    "winston": "^2.4.2",
+    "ws": "^5.1.1"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.45",
+    "@types/socket.io": "^1.4.33",
+    "@types/ws": "^5.1.1",
+    "require-all": "^2.2.0",
+    "ts-lint": "^4.5.1",
+    "ts-loader": "^4.3.0",
+    "ts-node": "^6.0.3",
+    "tsconfig-paths": "^3.3.2",
+    "tsconfig-paths-webpack-plugin": "^3.1.3",
+    "typescript": "^2.8.3",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3",
+    "webpack-node-externals": "^1.7.2"
+  }
+}

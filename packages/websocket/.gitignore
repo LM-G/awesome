@@ -1,0 +1,20 @@
+# Node Files
+/node_modules/
+/bower_components/
+
+
+# Typing
+/src/typings/tsd/
+/typings/
+/tsd_typings/
+
+# compiled output
+/dist/
+/dev/
+*.webpack.json
+/tmp
+/out-tsc
+
+# misc
+/coverage
+/typings

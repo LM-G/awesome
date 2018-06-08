@@ -1,0 +1,11 @@
+{
+  "name": "@awesome/examples",
+  "version": "1.0.0",
+  "description": "Awesome - the example module",
+  "author": "LM-G",
+  "license": "MIT",
+  "scripts": {
+    "chat#launch:client": "cd chat && npm run launch:client",
+    "chat#launch:server": "cd chat && npm run launch:server"
+  }
+}

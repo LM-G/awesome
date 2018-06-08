@@ -1,0 +1,16 @@
+{
+  "name": "@awesome/websocket",
+  "version": "1.0.0",
+  "description": "Awesome - the websocket module",
+  "main": "dist/awesome-websocket.js",
+  "types": "dist/awesome-websocket.d.ts",
+  "author": "LM-G",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "tslint": "^5.10.0",
+    "typescript": "^2.9.1"
+  }
+}
