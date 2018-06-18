@@ -2,8 +2,8 @@
   "name": "@awesome/websocket",
   "version": "1.0.0",
   "description": "Awesome - the websocket module",
-  "main": "dist/awesome-websocket.js",
-  "types": "dist/awesome-websocket.d.ts",
+  "main": "dist/websocket.js",
+  "types": "dist/websocket.d.ts",
   "author": "LM-G",
   "license": "MIT",
   "scripts": {

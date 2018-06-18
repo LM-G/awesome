@@ -4,6 +4,7 @@
   "description": "Awesome - the example module",
   "author": "LM-G",
   "license": "MIT",
+  "private": true,
   "scripts": {
     "chat#launch:client": "cd chat && npm run launch:client",
     "chat#launch:server": "cd chat && npm run launch:server"

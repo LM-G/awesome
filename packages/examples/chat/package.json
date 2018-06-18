@@ -4,6 +4,7 @@
   "description": "Awesome - the chat example module",
   "author": "LM-G",
   "license": "MIT",
+  "private": true,
   "scripts": {
     "init:client":"cd client && yarn",
     "init:server":"cd server && yarn",

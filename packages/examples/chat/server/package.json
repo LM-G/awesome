@@ -2,6 +2,7 @@
   "name": "@awesome/examples-chat-server",
   "description": "Awesome - the example chat server module",
   "version": "1.0.0",
+  "private": true,
   "scripts": {
     "start": "nodemon",
     "serve": "webpack && node ./dist/bundle.js",
